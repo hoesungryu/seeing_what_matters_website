@@ -17,14 +17,34 @@ video: https://youtu.be/
 --- 
 
 ![Overview of the research framework](/static/image/overview.png)
-<script>
+<!-- <script>
 document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img => {
   img.style.width = "80%";      // 크기 조절
   img.style.height = "70%";      // 크기 조절
   img.style.display = "block";  // 블록 요소로 변환
   img.style.margin = "0 auto";  // 좌우 자동 마진 → 가운데 정렬
 });
+</script> -->
+
+
+<script>
+document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img => {
+  // 크기 + 정렬
+  img.style.width = "80%";      // 크기 조절
+  img.style.height = "70%";      // 크기 조절
+  img.style.display = "block";
+  img.style.margin = "0 auto";
+  // 캡션 추가
+  const caption = document.createElement("div");
+  caption.textContent = "Overview of the research framework";
+  caption.style.textAlign = "center";
+  caption.style.fontSize = "17px";
+  caption.style.color = "#555";
+  caption.style.marginTop = "6px";
+  img.insertAdjacentElement("afterend", caption);
+});
 </script>
+
 
 --- 
 <!-- Using HTML to center the abstract -->
