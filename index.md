@@ -12,9 +12,19 @@ affiliations:
 video: https://youtu.be/
 # paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 # code: https://github.com/topics/turing-machines
+
 ---
 
 ![Overview of the research framework](/static/image/overview.png)
+
+<script>
+document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img => {
+  img.style.width = "60%";      // 크기 조절
+  img.style.display = "block";  // 블록 요소로 변환
+  img.style.margin = "0 auto";  // 좌우 자동 마진 → 가운데 정렬
+});
+</script>
+
 <!-- *Figure 1: A representation of a Turing Machine. Source: [Wiki](https://en.wikipedia.org/wiki/Turing_machine).* -->
 
 <!-- Using HTML to center the abstract -->

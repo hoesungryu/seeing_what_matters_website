@@ -1,17 +1,4 @@
-# Predicting-Future-Driving-Decisions-in-an-Accident-Situation-From-Videos: website
+# seeing_what_matters_website
+This [repository](https://github.com/hoesungryu/seeing_what_matters_website) is about `Seeing What Matters: Attentional (Mis-)Alignment Between Humans and AI in VR-Simulated Prediction of Driving Accidents`, which has been accepted to ISMAR 2025 and invited for publication in a special issue of IEEE TVCG.
 
-This repository jekyll-ized the source code for the [Nerfies website](https://nerfies.github.io).
-You only need to change the content of [index.md](/index.md). 
-It's possible to only write in markdown, but you can also use HTML to achieve fancier effects.
 
-Here is an [example website](https://hoesungryu.github.io/Predicting-Future-Driving-Decisions-in-an-Accident-Situation-From-Videos-website/).
-
-## Test it locally
-
-Install [Jekyll](https://jekyllrb.com/docs/installation/), and run
-```
-> jekyll serve
-> sudo lsof -wni tcp:4000
-```
-in this directory.
-Then you can see the website at `http://127.0.0.1:4000`.
