@@ -95,8 +95,19 @@
 <div class="container is-max-desktop">
 
 <div class="content">
-  <div align="center">
-  <img src="/static/image/overview.png" alt="Overview of the research framework" width="80%" />
+  <p><img src="/static/image/overview.png" alt="Overview of Our Research" />
+<script>
+document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img =&gt; {
+  // 크기 + 정렬
+  img.style.width = "80%";      // 크기 조절
+  img.style.height = "70%";      // 크기 조절
+  img.style.display = "block";
+  img.style.margin = "0 auto";
+});
+</script></p>
+
+<div align="center">
+  <!-- <img src="/static/image/overview.png" alt="Overview of the research framework" width="80%"> -->
   <p style="font-size: 0.9em; color: #666; ">
     [Figure] Overview of the research framework
   </p>

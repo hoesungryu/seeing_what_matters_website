@@ -15,8 +15,21 @@ video: https://www.youtube.com/watch?v=xe8hN__0RC4
 # code: https://github.com/topics/turing-machines
 ---
 
+
+
+![Overview of Our Research](/static/image/overview.png)
+<script>
+document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img => {
+  // 크기 + 정렬
+  img.style.width = "80%";      // 크기 조절
+  img.style.height = "70%";      // 크기 조절
+  img.style.display = "block";
+  img.style.margin = "0 auto";
+});
+</script>
+
 <div align="center">
-  <img src="/static/image/overview.png" alt="Overview of the research framework" width="80%">
+  <!-- <img src="/static/image/overview.png" alt="Overview of the research framework" width="80%"> -->
   <p style="font-size: 0.9em; color: #666; ">
     [Figure] Overview of the research framework
   </p>
