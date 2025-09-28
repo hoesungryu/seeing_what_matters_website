@@ -5,29 +5,28 @@ permalink: /
 title: Seeing What Matters<br> Attentional (Mis-)Alignment Between Humans and AI in VR-Simulated Prediction of Driving Accidents
 authors:
     Hoe Sung Ryu$^{1}$, Uijong Ju$^{3}$, Christian Wallraven$^{1,2}$
+    <br><small><span class="e-mail">(e-mail:wallraven@korea.ac.kr)</span></small></br>
 affiliations:
     Department of Artificial Intelligence, Korea University, Seoul, Korea$^{1}$<br>
     Department of Brain and Cognitive Engineering, Korea University , Seoul, Korea$^{2}$<br>
     Department of Information Display, Kyung Hee University, Seoul, Korea$^{3}$
-video: https://youtu.be/
+video: https://www.youtube.com/watch?v=xe8hN__0RC4
 # paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 # code: https://github.com/topics/turing-machines
 ---
 
---- 
+<div align="center">
+  <img src="/static/image/overview.png" alt="Overview of the research framework" width="80%">
+  <p style="font-size: 0.9em; color: #666; ">
+    [Figure] Overview of the research framework
+  </p>
+</div>
 
-![Overview of the research framework](/static/image/overview.png)
+
+
+<!-- ![Overview of the research framework](/static/image/overview.png) -->
+
 <!-- <script>
-document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img => {
-  img.style.width = "80%";      // 크기 조절
-  img.style.height = "70%";      // 크기 조절
-  img.style.display = "block";  // 블록 요소로 변환
-  img.style.margin = "0 auto";  // 좌우 자동 마진 → 가운데 정렬
-});
-</script> -->
-
-
-<script>
 document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img => {
   // 크기 + 정렬
   img.style.width = "80%";      // 크기 조절
@@ -43,7 +42,7 @@ document.querySelectorAll('img[src="/static/image/overview.png"]').forEach(img =
   caption.style.marginTop = "6px";
   img.insertAdjacentElement("afterend", caption);
 });
-</script>
+</script> -->
 
 
 --- 
@@ -57,7 +56,7 @@ This study explores how human and AI visual attention differ in a short-term pre
     </div>
 </div>
 
----
+
 
 ## Research Question
 “Can AI models achieve human-level future anticipation and visual attention strategies when predicting accident dilemmas in driving scenario?”
