@@ -11,7 +11,7 @@ affiliations:
     Department of Brain and Cognitive Engineering, Korea University , Seoul, Korea$^{2}$<br>
     Department of Information Display, Kyung Hee University, Seoul, Korea$^{3}$
 video: https://www.youtube.com/watch?v=xe8hN__0RC4
-# paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+paper: https://ieeexplore.ieee.org/document/11190029
 # code: https://github.com/topics/turing-machines
 ---
 
@@ -84,15 +84,13 @@ In safety-critical domains, our work demonstrates that performance metrics alone
 - [1] Ju et al. (2020). Acoustic cues increase situational awareness in accident situations: A VR car-driving study, IEEE transactions on intelligent transportation systems. -->
 
 
-<!-- ## Citation
+## Citation
 ```
-@article{turing1936computable,
-  title={On computable numbers, with an application to the Entscheidungsproblem},
-  author={Turing, Alan Mathison},
-  journal={Journal of Mathematics},
-  volume={58},
-  number={345-363},
-  pages={5},
-  year={1936}
+@article{ryu2025seeing,
+  title={Seeing What Matters: Attentional (Mis-) Alignment Between Humans and AI in VR-Simulated Prediction of Driving Accidents},
+  author={Ryu, Hoe Sung and Ju, Uijong and Wallraven, Christian},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2025},
+  publisher={IEEE}
 }
-``` -->
+```
